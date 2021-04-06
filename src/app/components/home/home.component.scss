@@ -1,0 +1,134 @@
+#header {
+    background:   #4F4D53;
+    height: 48px;
+    width: 100%;
+
+}
+
+.login {
+    border: 1px solid #E8BE02;
+    color: #E8BE02;
+    cursor: pointer;
+
+   
+
+
+}
+
+ .signup {
+    color: #fff;
+   cursor: pointer;
+}
+
+form {
+   background: #323034;
+    input {
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        background: #323034;
+        height: 30px;
+        
+    }
+}
+
+h1{
+    font-weight: 900;
+    color: #4F4D53;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    font-size: 100px;
+}
+
+p {
+ 
+   font-size: 20px  ;
+   color: #4F4D53;
+   font-weight: 400;    
+}
+
+h4{
+          
+
+   font-size: 14px  ;
+   color:#FFFFFF;
+   font-weight: 400;  
+
+       }
+
+h3{
+   font-size: 20px  ;
+   color:#E8BE02;
+   font-weight: 900;  
+       
+               }
+
+.image-container {
+    width: 50%;
+   position: absolute;
+   top: 65%;
+   left: 20%;
+
+  
+}
+.cicle-img {
+   width: 8rem;
+   border-radius: 100%;
+}
+
+.content {
+
+   width: 100%;
+   // margin: 50px;
+   margin-top: 90px;
+   margin-bottom: 30px;
+    
+   h2 {
+       
+       font-size: 64px ;
+       color: #E8BE02;
+       font-weight: 900;
+
+   }
+    p {
+        width: 50%;
+    }
+
+ 
+}
+
+
+.contact-container {
+    width: 100%;
+
+
+   .contacts {
+      width: 30%;
+       display: flex;
+       justify-content: space-around;
+
+       img {
+           @extend .cicle-img  ;
+       }
+
+
+   }
+}
+
+.band-footer{
+    height:  12px  ;
+    background: #E8BE02;
+    margin-top: 60px;
+
+    
+}
+
+
+.footer {
+   width: 100%;
+   height:  320px ;
+   background-color: #4F4D53;
+   text-align: center;
+
+}

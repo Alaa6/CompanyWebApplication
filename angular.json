@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "anular-test"
+  "defaultProject": "anular-test",
+  "cli": {
+    "analytics": "dc695902-3b37-4f7c-8215-744ca746837a"
+  }
 }

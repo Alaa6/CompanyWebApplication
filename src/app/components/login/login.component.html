@@ -1,19 +1,19 @@
-<!-- <article class="container" >
+<article class=" container " >
 
-    <form [formGroup]="loginForm"  (ngSubmit)="login( this.loginForm.value.username, this.loginForm.value.password) ">
+    <form [formGroup]="loginForm"   (ngSubmit)="login( this.loginForm.value.username, this.loginForm.value.password) ">
   
 
         <div class="form-group">
-            <label for="username">username</label>
-            <input formControlName="username"  id="username" class="form-control mt-3" type="text" name="username" >
+            <!-- <label for="username">username</label> -->
+            <input formControlName="username"  id="username" class="form-control mt-3" type="text" name="username" placeholder="username"  >
             <div [hidden]="loginForm.valid || loginForm.untouched  "  class="alert alert-danger">  please enter correct data </div>
        
         </div>
     
     
         <div class="form-group">
-            <label for="password">Password</label>
-            <input formControlName="password" id="password" class="form-control mt-3" type="text" name="password" >
+            <!-- <label for="password">Password</label> -->
+            <input formControlName="password" id="password" class="form-control mt-2" type="text" name="password"  placeholder="Password">
             <div [hidden]="loginForm.valid || loginForm.untouched "  class="alert alert-danger">  please enter correct data </div>
     
             
@@ -23,10 +23,10 @@
     
     
     
-        <button mat-raised-button type="submit" color="primary" class="mt-3"  [disabled] = "loginForm.invalid"> Login
+        <button mat-raised-button type="submit"  class="mt-3"  [disabled] = "loginForm.invalid"> Sign in
             </button>
     
     
     </form>
 
-</article> -->
+</article>

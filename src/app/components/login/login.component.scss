@@ -1,8 +1,45 @@
 
 
 .container {
-    background-image: url("../../../assets/img_hero.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 720px ;
+    // background-image: url("../../../assets/img_hero.jpg");
+    // background-repeat: no-repeat;
+     width: 50%;
+     min-height: 500px ;
+     margin-top:  60px;
+     border:  1px solid  #a1a1a1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    input ,button {
+        width: 20em; 
+        height: 45px;  
+    }
+
+    input{
+        border-radius: 1px;
+        border-color: #a1a1a1;
+        
+    }
+
+    button {
+        background: #2675b3;
+        color : #fff ;
+        
+    }
+    
+   
+}
+
+::placeholder { 
+    color: #525755;
+    opacity: 1; /* Firefox */
+  }
